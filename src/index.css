@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure box-sizing is applied globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: antiquewhite;
+  height: 100%; /* Ensure body and html take full height */
+  overflow: auto; /* Ensure overflow is set to auto */
+}
+
+#root {
+  min-height: 100%; /* Ensure the root element takes full height */
+}
